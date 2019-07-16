@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MiniLoadingView">
+        <attr name="color" format="color"/>
+        <attr name="size" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="bgColor" format="color"/>
+        <attr name="cRadius" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="ProgressView">
+
+        <attr name="totalLength" format="integer"/>
+        <!--进度条颜色-->
+        <attr name="progressColor" format="color"/>
+        <!--进度条高度-->
+        <attr name="progressHeight" format="float"/>
+        <!---->
+        <attr name="unProgressColor" format="color"/>
+        <!--是否可滑动-->
+        <attr name="focus" format="boolean"/>
+    </declare-styleable>
+</resources>

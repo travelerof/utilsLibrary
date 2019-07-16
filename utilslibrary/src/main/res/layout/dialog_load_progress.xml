@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/shape_load_progress_dialog"
+    android:paddingTop="@dimen/dimen_10"
+    android:paddingBottom="@dimen/dimen_10"
+    android:paddingLeft="@dimen/dimen_30"
+    android:paddingRight="@dimen/dimen_30"
+    android:gravity="center">
+    <com.hyg.utilslibrary.widget.MiniLoadingView
+        android:id="@+id/dialog_load_info_miniloadingview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:size="@dimen/dimen_30"
+        app:color="@color/white" />
+    <TextView
+        android:id="@+id/dialog_load_info_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textsize_14"
+        android:textColor="@color/white"
+        android:text="加载中..."
+        android:layout_marginTop="@dimen/dimen_10"/>
+</LinearLayout>

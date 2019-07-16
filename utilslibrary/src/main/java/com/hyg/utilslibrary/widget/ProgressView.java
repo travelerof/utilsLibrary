@@ -181,7 +181,6 @@ public class ProgressView extends View {
     }
 
     public interface OnProgressScrollListener{
-
         /**
          *
          * 开始滑动
